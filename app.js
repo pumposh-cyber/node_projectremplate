@@ -19,5 +19,5 @@ app.get('/',function (req, res) {
 
 //listner function with substitute port from envirnoment variables
 app.listen(process.env.PORT || 3050,function () {
-    console.log("Server started at port http://locahost:3050 or "+process.env.PORT)
+    console.log("Server started at port http://localhost:3050 or "+process.env.PORT)
 })
